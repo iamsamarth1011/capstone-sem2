@@ -425,7 +425,7 @@ export default function MentorshipHub() {
               </div>
 
               <div className="mb-8">
-                <h3 className="text-xl font-semibold mb-4">What You'll Learn</h3>
+                <h3 className="text-xl font-semibold mb-4">What You&apos;ll Learn</h3>
                 <div className="flex flex-wrap gap-2">
                   {selectedSession.skills.map((skill, index) => (
                     <span key={index} className="bg-gray-100 px-3 py-1 rounded-full text-sm">
@@ -442,7 +442,7 @@ export default function MentorshipHub() {
                   The mentor will share real-world examples and personalized feedback to help you achieve your goals.
                 </p>
                 <p className="text-gray-600">
-                  After completing this session, you'll receive a certificate of completion and access to additional resources to continue your learning journey.
+                  After completing this session, you&apos;ll receive a certificate of completion and access to additional resources to continue your learning journey.
                 </p>
               </div>
             </div>
