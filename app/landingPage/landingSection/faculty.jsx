@@ -15,14 +15,14 @@ export default function MentorShowcase() {
       id: 2,
       name: 'Daniel Lee',
       role: 'Product Designer',
-      avatar: 'https://images.unsplash.com/photo-1603415526960-f7e0328f7d8f?q=80&w=3000',
+      avatar: 'https://wwd.com/wp-content/uploads/2021/12/daniel-lee-portrait-300dpi-2.jpeg?crop=0px%2C23px%2C1024px%2C573px&resize=1000%2C563',
       skills: ['Figma', 'Illustrator', 'UX Research']
     },
     {
       id: 3,
       name: 'Fatima Rahman',
       role: 'Data Analyst',
-      avatar: 'https://images.unsplash.com/photo-1614287599986-dc64d5a8145e?q=80&w=3000',
+      avatar: 'https://www.soka.edu/sites/default/files/styles/318x406/public/faculty-staff/Fatima4.png?h=866b2820&itok=DgxFWwsB',
       skills: ['Python', 'Excel', 'Tableau']
     },
     {
@@ -36,28 +36,28 @@ export default function MentorShowcase() {
       id: 5,
       name: 'Sophia Chen',
       role: 'AI Researcher',
-      avatar: 'https://images.unsplash.com/photo-1589461156072-8a4d7c6a2f93?q=80&w=3000',
+      avatar: 'https://www.societyforscience.org/wp-content/uploads/2024/03/STS-2024_HS_0009_Sophie-Chen.jpg.webp',
       skills: ['Machine Learning', 'Python', 'TensorFlow']
     },
     {
       id: 6,
       name: 'Omar Yusuf',
       role: 'DevOps Engineer',
-      avatar: 'https://images.unsplash.com/photo-1551836022-4c4c79ecde18?q=80&w=3000',
+      avatar: 'https://accidentalmuslims.com/wp-content/uploads/2019/08/yusuf-omar-250x250.jpg',
       skills: ['Docker', 'AWS', 'Kubernetes']
     },
     {
       id: 7,
       name: 'Meera Patel',
       role: 'Business Analyst',
-      avatar: 'https://images.unsplash.com/photo-1590080875893-d933c096f713?q=80&w=3000',
+      avatar: 'https://mh-llp.com/wp-content/uploads/2022/05/Meera.jpg',
       skills: ['Business Strategy', 'Jira', 'SQL']
     },
     {
       id: 8,
       name: 'Chris Johnson',
       role: 'Full Stack Developer',
-      avatar: 'https://images.unsplash.com/photo-1614285315465-42d1e41a3745?q=80&w=3000',
+      avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHYTFqvXiKYXJBlUpEe7vwp6TG97d8BN8_1g&s',
       skills: ['Node.js', 'React', 'MongoDB']
     }
   ]);
