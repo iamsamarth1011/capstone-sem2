@@ -7,9 +7,9 @@ import Link from 'next/link';
 const imageFiles = [
     'https://images.unsplash.com/photo-1560087637-bf797bc7796a?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     'https://images.unsplash.com/photo-1542330952-bffc55e812b2?q=80&w=2969&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    'https://images.unsplash.com/photo-1560087637-bf797bc7796a?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    'https://images.unsplash.com/photo-1560087637-bf797bc7796a?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    'https://images.unsplash.com/photo-1560087637-bf797bc7796a?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    "https://media.istockphoto.com/id/1420697156/photo/leadership-manager-and-team-leader.jpg?s=1024x1024&w=is&k=20&c=Ly785VLGMCGJ87uFYp_cWaFaznmN6YT6m-m3pKcd4Cs=",
+    'https://media.istockphoto.com/id/1383533772/photo/shot-of-a-businesswoman-holding-a-digital-tablet-while-standing-in-the-boardroom.jpg?s=1024x1024&w=is&k=20&c=rNq5TZWC7OoiOf2b0zAnj4zz6HwWXFRlIEHPCmco5SQ=',
+    'https://media.istockphoto.com/id/1383533779/photo/shot-of-a-businessman-holding-a-digital-tablet-while-standing-in-the-boardroom.jpg?s=1024x1024&w=is&k=20&c=Omv9xnBT3fNIzpewMKxne2H9aMzW-Cz4KG07hzIGuVI=',
  
 ];
 
