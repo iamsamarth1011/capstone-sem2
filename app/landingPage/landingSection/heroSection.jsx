@@ -26,7 +26,7 @@ export default function HeroSection() {
                 <div className="text-center max-w-4xl mx-auto relative">
                     <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-5">
                         Ignite Innovation<br />
-                        Through Collective Learning
+                        Through Collective Learning Courses
                     </h1>
 
                     <p className="text-gray-700 mb-10 max-w-2xl mx-auto">
