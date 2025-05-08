@@ -21,7 +21,7 @@ const Navbar = () => {
         <li><a href="#home" className="hover:text-indigo-500 transition">Home</a></li>
         <li><a href="#courses" className="hover:text-indigo-500 transition">Courses</a></li>
         <li><a href="#mentors" className="hover:text-indigo-500 transition">Mentors</a></li>
-        <li><a href="#benefit" className="hover:text-indigo-500 transition">Benefit</a></li>
+        <li><a href="#benefit" className="hover:text-indigo-500 transition">Benefits</a></li>
         <li><a href="#about" className="hover:text-indigo-500 transition">About</a></li>
       </ul>
 
