@@ -16,8 +16,8 @@ const page = () => {
         <Faculty/>
         <AllPlace/>
         {/* <AboutUs/> */}
-        <JoinNow/>
-        <Expert/>
+        {/* <JoinNow/> */}
+        {/* <Expert/> */}
         <FAQ/>
        
     </div>
