@@ -28,20 +28,6 @@ export default function HeroSection() {
                         Discover a vibrant community where learning, collaboration, and creativity fuel progress. Start your journey toward meaningful impact today.
                     </p>
 
-                    <div className="absolute left-0 top-10 -translate-x-1/2 opacity-90">
-                        <div className="w-10 h-10 bg-blue-300 rotate-12 rounded shadow-md flex items-center justify-center">
-                            <span className="text-white font-semibold text-sm">★</span>
-                        </div>
-                    </div>
-
-                    <div className="absolute right-0 top-10 translate-x-1/2 opacity-90">
-                        <div className="flex space-x-1">
-                            <div className="w-3 h-3 bg-blue-400 rounded-full"></div>
-                            <div className="w-3 h-3 bg-teal-400 rounded-full"></div>
-                            <div className="w-3 h-3 bg-blue-400 rounded-full"></div>
-                        </div>
-                    </div>
-
                     <div className="max-w-md mx-auto mb-16 text-center">
                         <Link href="/findCourses">
                             <button className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-lg text-sm font-medium hover:bg-blue-700 transition">
