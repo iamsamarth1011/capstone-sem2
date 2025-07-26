@@ -27,7 +27,8 @@ const Navbar = () => {
         <li><a href="#home" className="hover:text-indigo-500 transition">Home</a></li>
         <li><a href="#courses" className="hover:text-indigo-500 transition">Courses</a></li>
         <li><a href="#mentors" className="hover:text-indigo-500 transition">Mentors</a></li>
-        <li><a href="#about" className="hover:text-indigo-500 transition">About</a></li>
+        <li><a href="#benefit" className="hover:text-indigo-500 transition">About</a></li>
+        <li><a href="#about" className="hover:text-indigo-500 transition">Contact Us</a></li>
       </ul>
 
       <header className="flex justify-end items-center p-4 gap-4 h-16">
