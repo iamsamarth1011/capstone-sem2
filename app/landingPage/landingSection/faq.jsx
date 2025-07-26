@@ -46,23 +46,21 @@ export default function InteractiveFAQ() {
           {faqList.map((item, i) => (
             <div
               key={i}
-              className={`bg-white p-6 rounded-lg shadow-md transition duration-300 ${
-                active === i ? "ring-2 ring-indigo-400" : ""
-              }`}
+              className={`bg-blue-500 p-6 rounded-lg`}
             >
               <button
                 onClick={() => toggle(i)}
                 className="flex justify-between w-full items-center focus:outline-none"
               >
-                <h3 className="text-lg font-medium text-indigo-500">{item.question}</h3>
+                <h3 className="text-lg font-medium text-white">{item.question}</h3>
                 {active === i ? (
-                  <ChevronUp className="text-green-700 transition-transform duration-300" />
+                  <ChevronUp className="text-white transition-transform duration-300" />
                 ) : (
-                  <ChevronDown className="text-gray-500 transition-transform duration-300" />
+                  <ChevronDown className="text-white transition-transform duration-300" />
                 )}
               </button>
               {active === i && (
-                <div className="mt-4 text-gray-600">
+                <div className="mt-4 text-white">
                   <p>{item.answer}</p>
                 </div>
               )}

@@ -2,7 +2,7 @@
 import React from 'react';
 import { Search } from 'lucide-react';
 import Link from 'next/link';
- 
+
 
 const imageFiles = [
     'https://rishihood.edu.in/wp-content/uploads/2024/05/Aryan.jpg',
@@ -10,18 +10,13 @@ const imageFiles = [
     "https://rishihood.edu.in/wp-content/uploads/2024/12/Neeraj-Rawat-2.png",
     'https://rishihood.edu.in/wp-content/uploads/2024/05/Gladden.png',
     'https://rishihood.edu.in/wp-content/uploads/2002/04/Siddharth-Maheshwari-600x600.png',
- 
+
 ];
 
 export default function HeroSection() {
     return (
         <div id='home' className="min-h-screen w-full px-4">
             <div className="max-w-6xl mx-auto pt-32 relative">
-
-                <div className="flex items-center  justify-center gap-2 text-sm text-blue-700 mb-6">
-                    <div className='h-3 w-3 rounded-full bg-blue-800'></div>
-                    Unlock Limitless Learning
-                </div>
 
                 <div className="text-center max-w-4xl mx-auto relative">
                     <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-5">
@@ -34,7 +29,7 @@ export default function HeroSection() {
                     </p>
 
                     <div className="absolute left-0 top-10 -translate-x-1/2 opacity-90">
-                        <div className="w-10 h-10 bg-indigo-300 rotate-12 rounded shadow-md flex items-center justify-center">
+                        <div className="w-10 h-10 bg-blue-300 rotate-12 rounded shadow-md flex items-center justify-center">
                             <span className="text-white font-semibold text-sm">★</span>
                         </div>
                     </div>
@@ -43,18 +38,18 @@ export default function HeroSection() {
                         <div className="flex space-x-1">
                             <div className="w-3 h-3 bg-blue-400 rounded-full"></div>
                             <div className="w-3 h-3 bg-teal-400 rounded-full"></div>
-                            <div className="w-3 h-3 bg-indigo-400 rounded-full"></div>
+                            <div className="w-3 h-3 bg-blue-400 rounded-full"></div>
                         </div>
                     </div>
 
                     <div className="max-w-md mx-auto mb-16 text-center">
-    <Link href="/findCourses">
-        <button className="inline-flex items-center gap-2 px-6 py-3 bg-indigo-600 text-white rounded-lg text-sm font-medium hover:bg-indigo-700 transition">
-            <Search size={18} />
-            Find Courses
-        </button>
-    </Link>
-</div>
+                        <Link href="/findCourses">
+                            <button className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-lg text-sm font-medium hover:bg-blue-700 transition">
+                                <Search size={18} />
+                                Find Courses
+                            </button>
+                        </Link>
+                    </div>
                 </div>
 
                 <div className="flex w-full flex-wrap justify-center gap-4 absolute -bottom-60 left-1/2 -translate-x-1/2">

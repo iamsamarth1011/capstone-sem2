@@ -285,7 +285,7 @@ export default function MentorshipHub() {
             <input
               type="text"
               placeholder="Search for mentorship sessions..."
-              className="w-full pl-10 pr-4 py-3 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+              className="w-full pl-10 pr-4 py-3 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
               value={searchQuery}
               onChange={(e) => {
                 setSearchQuery(e.target.value);
@@ -333,7 +333,7 @@ export default function MentorshipHub() {
               onClick={() => setActiveCategory(cat)}
               className={`px-4 py-2 text-sm rounded-full border transition ${
                 activeCategory === cat
-                  ? 'bg-indigo-600 text-white'
+                  ? 'bg-blue-600 text-white'
                   : 'bg-white text-gray-800 border-gray-300 hover:bg-gray-100'
               }`}
             >
@@ -361,15 +361,12 @@ export default function MentorshipHub() {
             <div className="p-8">
               <div className="flex justify-between items-start mb-6">
                 <div>
-                  <span className="inline-block px-3 py-1 rounded-full text-sm font-medium bg-indigo-100 text-indigo-800 mb-3">
-                    {selectedSession.category}
-                  </span>
                   <h2 className="text-3xl font-bold mb-2">{selectedSession.title}</h2>
                   <p className="text-gray-600 text-lg mb-4">{selectedSession.desc}</p>
                 </div>
                 <div className="text-right">
-                  <p className="text-2xl font-bold text-indigo-600">{selectedSession.price}</p>
-                  <button className="mt-4 bg-indigo-600 text-white px-6 py-2 rounded-full hover:bg-indigo-700 transition">
+                  <p className="text-2xl font-bold text-blue-600">{selectedSession.price}</p>
+                  <button className="mt-4 bg-blue-600 text-white px-10 py-2 rounded-md hover:bg-blue-700 transition">
                     Book Session
                   </button>
                 </div>
@@ -386,12 +383,6 @@ export default function MentorshipHub() {
                     />
                     <div>
                       <p className="font-medium">{selectedSession.mentor}</p>
-                      <div className="flex items-center">
-                        <Star className="w-4 h-4 text-yellow-500 fill-yellow-500 mr-1" />
-                        <span className="text-sm text-gray-700">
-                          {selectedSession.rating} ({selectedSession.reviews} reviews)
-                        </span>
-                      </div>
                     </div>
                   </div>
                   <p className="text-gray-600 mb-4">{selectedSession.mentor} has been mentoring professionals in this field for over 5 years with proven results.</p>
@@ -453,9 +444,6 @@ export default function MentorshipHub() {
               <div className="bg-white rounded-xl shadow-lg mb-12 overflow-hidden flex flex-col md:flex-row">
                 <div className="p-8 flex w-full md:w-[60%] flex-col justify-between">
                   <div>
-                    <span className="inline-flex items-center mb-3 text-sm text-white font-medium bg-indigo-600 px-3 py-1 rounded-full">
-                      <Flame className="w-4 h-4 mr-1" /> Featured
-                    </span>
                     <h2 className="text-3xl font-bold mb-3">{filtered.find(s => s.featured).title}</h2>
                     <p className="text-gray-600 mb-6">{filtered.find(s => s.featured).desc}</p>
                     <div className="flex gap-6 text-gray-500 text-sm mb-6">
@@ -465,9 +453,9 @@ export default function MentorshipHub() {
                     </div>
                   </div>
                   <div className="flex justify-between items-center">
-                    <span className="text-xl font-bold text-indigo-600">{filtered.find(s => s.featured).price}</span>
+                    <span className="text-xl font-bold text-blue-600">{filtered.find(s => s.featured).price}</span>
                     <button 
-                      className="flex items-center text-sm font-medium text-indigo-600 hover:underline"
+                      className="flex items-center text-sm font-medium text-blue-600 hover:underline"
                       onClick={() => setSelectedSession(filtered.find(s => s.featured))}
                     >
                       Learn More <ArrowRight className="w-4 h-4 ml-1" />
@@ -496,7 +484,7 @@ export default function MentorshipHub() {
                     <div className="p-5">
                       <div className="flex justify-between items-center mb-3">
                         <span className="text-sm text-gray-500">{s.category}</span>
-                        <span className="text-lg font-semibold text-indigo-600">{s.price}</span>
+                        <span className="text-lg font-semibold text-blue-600">{s.price}</span>
                       </div>
                       <h3 className="text-xl font-bold text-gray-900 mb-2">{s.title}</h3>
                       <div className="flex gap-4 text-gray-500 text-sm mb-3">
@@ -515,7 +503,7 @@ export default function MentorshipHub() {
               <div className="text-center py-12">
                 <p className="text-gray-500 text-lg">No mentorship sessions found matching your criteria.</p>
                 <button 
-                  className="mt-4 text-indigo-600 hover:underline"
+                  className="mt-4 text-blue-600 hover:underline"
                   onClick={() => {
                     setActiveCategory('All');
                     setSearchQuery('');

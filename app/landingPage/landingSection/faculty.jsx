@@ -68,20 +68,20 @@ export default function MentorShowcase() {
   };
 
   return (
-    <div id='mentors' className="w-full mx-auto px-4 sm:px-8 md:px-16 lg:px-32 py-16 md:py-32 min-h-screen">
+    <div id='mentors' className="w-full mx-auto px-4 sm:px-8 md:px-16 lg:px-32 py-8 md:py-10 min-h-screen">
       <div className="text-center mb-12">
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
-          Meet the Visionaries Behind <br /> Our Community Growth
+          Mentors
         </h1>
         <p className="text-gray-600 max-w-2xl mx-auto px-4">
-          These mentors are not only skilled professionals but also passionate educators ready to guide you through your journey.
+          These mentors are certified by some government agency
         </p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {mentors.map((mentor, index) => (
           <div key={mentor.id} className="rounded-lg shadow-sm p-6 py-12 flex flex-col items-center">
-            <div className={`w-16 h-16 rounded-full ${getAvatarBgColor(index)} mb-4 flex items-center justify-center`}>
+            <div className={`w-16 h-16 rounded-full mb-4 flex items-center justify-center`}>
               <img 
                 src={mentor.avatar} 
                 alt={mentor.name} 
@@ -90,22 +90,8 @@ export default function MentorShowcase() {
             </div>
             <h3 className="font-bold text-lg">{mentor.name}</h3>
             <p className="text-gray-600 mb-4">{mentor.role}</p>
-            <div className="flex flex-wrap gap-2 justify-center">
-              {mentor.skills.map((skill, idx) => (
-                <span key={idx} className="bg-gray-100 text-gray-700 px-3 py-1 text-sm rounded-md">
-                  {skill}
-                </span>
-              ))}
-            </div>
           </div>
         ))}
-      </div>
-
-      <div className="flex justify-center mt-12">
-        <button className="flex items-center bg-indigo-600 text-white px-6 py-3 rounded-full hover:bg-indigo-700 transition-colors">
-          <span className="mr-2">Explore More Mentors</span>
-          <ArrowRight size={18} />
-        </button>
       </div>
     </div>
   );
