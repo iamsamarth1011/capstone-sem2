@@ -6,58 +6,58 @@ export default function MentorShowcase() {
   const [mentors] = useState([
     {
       id: 1,
-      name: 'Aisha Khan',
+      name: 'Rashmi Kumari',
       role: 'Frontend Developer',
-      avatar: 'https://images.unsplash.com/photo-1607746882042-944635dfe10e?q=80&w=3000',
+      avatar: 'https://rishihood.edu.in/wp-content/uploads/2024/12/Rashmi-Kumari-2.png',
       skills: ['React', 'GSAP', 'Tailwind CSS']
     },
     {
       id: 2,
-      name: 'Daniel Lee',
-      role: 'Product Designer',
-      avatar: 'https://wwd.com/wp-content/uploads/2021/12/daniel-lee-portrait-300dpi-2.jpeg?crop=0px%2C23px%2C1024px%2C573px&resize=1000%2C563',
+      name: 'Vishal Sharma',
+      role: 'Product Manager',
+      avatar: 'https://media.licdn.com/dms/image/v2/D5603AQEoNR8PBS78Tw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1701871448005?e=1756339200&v=beta&t=9QqZ6PVh9NIsk9htb_LqRR0IdHJ2ksEys8SEcCRAUa8',
       skills: ['Figma', 'Illustrator', 'UX Research']
     },
     {
       id: 3,
-      name: 'Fatima Rahman',
-      role: 'Data Analyst',
-      avatar: 'https://www.soka.edu/sites/default/files/styles/318x406/public/faculty-staff/Fatima4.png?h=866b2820&itok=DgxFWwsB',
+      name: 'Swati Priya',
+      role: 'Backend Developer',
+      avatar: 'https://media.licdn.com/dms/image/v2/D4D03AQGCIa5v0qMtgQ/profile-displayphoto-shrink_800_800/B4DZYF3v_THAAc-/0/1743855224979?e=1756339200&v=beta&t=pekC-bkvgLZcZ4CjgZlCAau6X-qFmpcFG92-VYVWmXA',
       skills: ['Python', 'Excel', 'Tableau']
     },
     {
       id: 4,
-      name: 'Leo Martinez',
-      role: 'Marketing Strategist',
-      avatar: 'https://images.unsplash.com/photo-1573497491208-6b1acb260507?q=80&w=3000',
+      name: 'Rahul Kumar',
+      role: 'Fullstack Developer',
+      avatar: 'https://media.licdn.com/dms/image/v2/D4D03AQHeHaSMo9AMcQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1682998229812?e=1756339200&v=beta&t=QalpS35nY21l9LxX9BcqXseyVdkamh6xhp7SmqwJNuI',
       skills: ['SEO', 'Copywriting', 'Analytics']
     },
     {
       id: 5,
-      name: 'Sophia Chen',
+      name: 'Bhavesh Bansal',
       role: 'AI Researcher',
-      avatar: 'https://www.societyforscience.org/wp-content/uploads/2024/03/STS-2024_HS_0009_Sophie-Chen.jpg.webp',
+      avatar: 'https://media.licdn.com/dms/image/v2/D4D03AQHxENtOEKx4Hg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1695733138379?e=1756339200&v=beta&t=0jvkLlJP4IERCqmMUlk8NDBJyssnDfLnC3KFJKtrTyE',
       skills: ['Machine Learning', 'Python', 'TensorFlow']
     },
     {
       id: 6,
-      name: 'Omar Yusuf',
-      role: 'DevOps Engineer',
-      avatar: 'https://accidentalmuslims.com/wp-content/uploads/2019/08/yusuf-omar-250x250.jpg',
+      name: 'Shivam Gupta',
+      role: 'Professional Cloud Engineer',
+      avatar: 'https://media.licdn.com/dms/image/v2/D5635AQEMpStcGa_YSw/profile-framedphoto-shrink_800_800/B56ZhC3NxSHcAg-/0/1753468427612?e=1754211600&v=beta&t=no7Ta9dhUsR5mrgK-zUeEb1lyUBCy_-9sfjsFTgSGCw',
       skills: ['Docker', 'AWS', 'Kubernetes']
     },
     {
       id: 7,
-      name: 'Meera Patel',
-      role: 'Business Analyst',
-      avatar: 'https://mh-llp.com/wp-content/uploads/2022/05/Meera.jpg',
+      name: 'Sai Bargav',
+      role: 'DSA Instructor',
+      avatar: 'https://media.licdn.com/dms/image/v2/D5603AQFwaYpyGaNdEQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1723380591630?e=1756339200&v=beta&t=b3_S2TkMRH61Fh88o4XuXD3_d1I-wDF5tU_drBmoumY',
       skills: ['Business Strategy', 'Jira', 'SQL']
     },
     {
       id: 8,
-      name: 'Chris Johnson',
-      role: 'Full Stack Developer',
-      avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHYTFqvXiKYXJBlUpEe7vwp6TG97d8BN8_1g&s',
+      name: 'Badal Kumar',
+      role: 'Statician',
+      avatar: 'https://media.licdn.com/dms/image/v2/D5603AQGaMZLHw71QnA/profile-displayphoto-shrink_800_800/B56ZW8MNrCHoAc-/0/1742619074729?e=1756339200&v=beta&t=D6FXN1yMf6J22LPeerU5iA4lXn9Lv8qS24j5SZEI-J4',
       skills: ['Node.js', 'React', 'MongoDB']
     }
   ]);
@@ -74,7 +74,7 @@ export default function MentorShowcase() {
           Mentors
         </h1>
         <p className="text-gray-600 max-w-2xl mx-auto px-4">
-          These mentors are certified by some government agency
+          These are the best mentors in all of India. They provide expert services.
         </p>
       </div>
 

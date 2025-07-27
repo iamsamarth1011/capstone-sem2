@@ -275,7 +275,7 @@ export default function MentorshipHub() {
     <section className="bg-gray-50 py-16 pt-32 px-4">
       <div className="max-w-7xl mx-auto">
         <header className="text-center mb-16">
-          <h1 className="text-5xl font-extrabold text-gray-900 mb-4">Find Your Perfect Mentor</h1>
+          <h1 className="text-5xl font-extrabold text-gray-900 mb-4">Find Your Perfect Course</h1>
           <p className="text-lg text-gray-600">Expert-led sessions designed to guide your growth in tech, branding, freelancing, and more.</p>
         </header>
 

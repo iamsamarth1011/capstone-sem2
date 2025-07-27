@@ -17,7 +17,7 @@ const Navbar = () => {
       <Link href="/">
         <div className="flex items-center gap-3">
 
-          <h1 className="text-2xl font-semibold text-white">CoursePlus</h1>
+          <h1 className="text-2xl font-semibold text-white">Course Plus</h1>
 
 
         </div>
