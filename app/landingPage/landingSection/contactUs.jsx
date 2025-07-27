@@ -6,7 +6,6 @@ export default function ContactUs() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState("");
 
-  // Web3Forms access key - replace with your actual key
   const WEB3FORMS_ACCESS_KEY = "f1fad398-c66c-40b8-862c-ce5d3de3f43f";
 
   const handleSubmit = async (e) => {
