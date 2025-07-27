@@ -36,9 +36,9 @@ export default function InteractiveFAQ() {
     <section className=" py-16 px-6">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-10">
-          <h2 className="text-4xl font-bold text-gray-900">FAQs</h2>
+          <h2 className="text-4xl font-bold text-gray-900">Questions? We've Got Answers!</h2>
           <p className="text-gray-600 mt-2">
-            Get answers to some of the most frequently asked questions about our platform and courses.
+            We know you might have some questions, so we've gathered the most common ones right here. If you don't see what you're looking for, just reach out – we're always happy to help!
           </p>
         </div>
 
